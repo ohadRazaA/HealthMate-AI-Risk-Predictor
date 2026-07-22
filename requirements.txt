@@ -1,5 +1,4 @@
 Streamlit==1.59.2
 XGBoost==3.3.0
-Scikit-learn==1.6.1
 Pandas==3.0.3
 NumPy==2.5.1

@@ -5,9 +5,9 @@ import pandas as pd
 from xgboost import XGBClassifier
 
 model = XGBClassifier()
-model.load_model("/model/healthmate_model.json")
+model.load_model("model/healthmate_model.json")
 
-with open("/model/scaler_params.json", "r") as f:
+with open("model/scaler_params.json", "r") as f:
     scaler_params = json.load(f)
 
 scaler_mean = np.array(scaler_params["mean"])
