@@ -1,4 +1,9 @@
 Streamlit==1.59.2
+<<<<<<< HEAD
 XGBoost==3.3.0
+=======
+xgboost==3.3.0
+Scikit-learn==1.6.1
+>>>>>>> 063c78cec54a01ea1e55f5020ed22444bb8de207
 Pandas==3.0.3
 NumPy==2.5.1
